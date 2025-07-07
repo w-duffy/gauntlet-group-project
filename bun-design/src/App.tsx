@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { APITester } from "./APITester";
 import "./index.css";
-
+import { HelloWorld } from "@/components/blocks/hello-world";
 import logo from "./logo.svg";
 import reactLogo from "./react.svg";
 
@@ -20,6 +20,8 @@ export function App() {
           className="h-36 p-6 transition-all duration-300 hover:drop-shadow-[0_0_2em_#61dafbaa] [animation:spin_20s_linear_infinite]"
         />
       </div>
+
+      <HelloWorld />
 
       <Card className="bg-card/50 backdrop-blur-sm border-muted">
         <CardContent className="pt-6">
