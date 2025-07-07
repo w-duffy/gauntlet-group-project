@@ -1,11 +1,15 @@
 # Setup
 
-## Vite Installiation
+## Install Bun
 
-- https://ui.shadcn.com/docs/installation/vite
+`npm install -g bun # the last `npm` command you'll ever need`
 
-bun create vite@latest
+## Create Project
 
-bun add tailwindcss @tailwindcss/vite
+- Scaffolds a bun react app 
+- Sets up shadcn with tailwindV4.  
+- Installs all shadcn components.
+
+`bun init --react=shadcn && bunx --bun shadcn@latest add --all --overwrite`
 
 
